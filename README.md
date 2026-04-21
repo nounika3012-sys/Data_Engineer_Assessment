@@ -25,10 +25,10 @@ bashpython your_script_name.py
 Downloaded CSV files will be saved in the data folder.
 
 Functions
-snake_case(name): Converts strings to snake_case format.
+to_snake_case(name): Converts strings to snake_case format.
 load_last_run(): Loads the timestamp of the last run (not currently used).
 save_last_run(timestamp): Saves the timestamp of the last run (not currently used).
-get_datasets(): Fetches and filters hospital datasets from the API.
+get_hospitals_datasets(): Fetches and filters hospital datasets from the API.
 download_dataset(dataset): Downloads and processes a single dataset CSV.
 main(): Coordinates dataset fetching and parallel downloading.
 
